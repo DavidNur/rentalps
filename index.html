@@ -56,7 +56,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">Tentang Kami</a>
+              <a class="nav-link" href="#about">Alat</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -65,22 +65,17 @@
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-              >
-                Menu
+                >Transaksi
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#action">Action</a></li>
+                <li><a class="dropdown-item" href="#action">Penjualan</a></li>
                 <li>
-                  <a class="dropdown-item" href="#anAction">Another action</a>
-                </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#anAction">Pembelian</a>
                 </li>
               </ul>
             </li>
             <li class="nav-item">
-              <!-- <a class="nav-link disabled">Disabled</a> -->
+              <a class="nav-link">Laporan</a>
             </li>
           </ul>
           <!-- <form class="d-flex" role="search">
@@ -96,47 +91,42 @@
       </div>
     </nav>
     <!-- Navbar End -->
-    <!-- section start -->
-    <section id="home"></section>
-    <!-- section end -->
-    <!-- GRID -->
+
+    <!-- GRID home -->
     <div class="container" style="padding: 5rem">
       <div class="row">
-        <div class="col-4">
-          <div class="card border-4">
-            <img src="img/ps31.png" alt="" />
-          </div>
-          <div class="card-body" style="padding: 0.5rem">
-            <h6 class="text-center">PS3 Hardisk</h6>
-            <p class="card-text opacity-75">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
-        </div>
-        <div class="col-4">
-          <div class="card border-4">
-            <img src="img/ps41.png" alt="" />
-          </div>
-          <div class="card-body" style="padding: 0.5rem">
-            <h6 class="text-center">PS3 Hardisk</h6>
-            <p class="card-text opacity-75">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+        <div class="col-md-8">
+          <div class="card">
+            <div class="content">
+              <div class="title">Personal edition</div>
+              <div class="price">$39.99</div>
+              <div class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur at posuere eros. Interdum et malesuada fames ac ante
+                ipsum primis in faucibus.
+              </div>
+            </div>
+            <button>Buy now</button>
           </div>
         </div>
-        <div class="col-4">
-          <div class="card border-4">
-            <img src="img/xb1.png" alt="" />
-          </div>
-          <div class="card-body" style="padding: 0.5rem">
-            <h6 class="text-center">PS3 Hardisk</h6>
-            <p class="card-text opacity-75">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
+
+        <div class="col-md-4">
+          <form>
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" />
+            </div>
+            <div class="mb-3">
+              <label for="lama" class="form-label">Lama Sewa</label>
+              <input type="text" class="form-control" id="lama" />
+            </div>
+            <div class="mb-3">
+              <label for="total" class="form-label">Total</label>
+              <input type="text" class="form-control" id="total" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
       </div>
     </div>
